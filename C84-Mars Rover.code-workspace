@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../C84-Mars Rover"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "Car Parking"
+	}
+}
