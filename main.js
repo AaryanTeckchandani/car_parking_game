@@ -2,7 +2,7 @@ canvas = document.getElementById('myCanvas');
 ctx=canvas.getContext("2d");
 
 backgroundImage = "park-a-lot-2_1600x0w.jpeg";
-carImage = "Car1.jpg"
+carImage = "car1.jpg"
 
 carX=50;
 carY=170;
@@ -28,7 +28,6 @@ function uploadBackground(){
 }
 
 function uploadCar(){
-    console.log("In Upload"+carImgTag +" "+carX+" "+carY+" "+carWidth+" "+carHeight);
     ctx.drawImage(carImgTag,carX,carY,carWidth,carHeight);
 }
 
